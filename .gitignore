@@ -1,0 +1,9 @@
+.idea
+/docker/volumes/
+/app/.rr.yaml
+/app/vendor/
+/app/runtime/
+/app/rr*
+/app/spiral*
+/app/.env
+/app/.phpunit.result.cache
