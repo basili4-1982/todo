@@ -1,6 +1,6 @@
 # http service configuration.
 http:
-  address: 0.0.0.0:8080
+  address: 0.0.0.0:80
 
   workers:
     command: "php app.php"

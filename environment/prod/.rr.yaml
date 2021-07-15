@@ -12,7 +12,7 @@ jobs:
   pipelines:
     local:
       broker: "ephemeral"
-  consume: ["local"]
+  consume: [ "local" ]
 
   workers:
     command: "php app.php"
@@ -20,8 +20,8 @@ jobs:
 
 # serve static files
 static:
-  dir:    "public"
-  forbid: [".php", ".htaccess"]
+  dir: "public"
+  forbid: [ ".php", ".htaccess" ]
 
 metrics:
   # prometheus client address (path /metrics added automatically)
